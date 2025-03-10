@@ -1,0 +1,5 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/UMAD GUIDE/obj/Debug/net9.0-android/android/src/mono

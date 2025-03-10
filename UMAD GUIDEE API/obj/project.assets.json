@@ -447,23 +447,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Monarch\\.nuget\\packages\\": {},
+    "C:\\Users\\ruin0\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Monarch\\source\\repos\\CORSEGuide\\UMAD GUIDEE API\\UMAD GUIDEE API.csproj",
+      "projectUniqueName": "C:\\Users\\ruin0\\Documents\\Universidad\\Sexto Semestre\\Desarrollo de Plataformas Móviles\\CORSE GUIDE\\UMAD GUIDEE API\\UMAD GUIDEE API.csproj",
       "projectName": "UMAD GUIDEE API",
-      "projectPath": "C:\\Users\\Monarch\\source\\repos\\CORSEGuide\\UMAD GUIDEE API\\UMAD GUIDEE API.csproj",
-      "packagesPath": "C:\\Users\\Monarch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Monarch\\source\\repos\\CORSEGuide\\UMAD GUIDEE API\\obj\\",
+      "projectPath": "C:\\Users\\ruin0\\Documents\\Universidad\\Sexto Semestre\\Desarrollo de Plataformas Móviles\\CORSE GUIDE\\UMAD GUIDEE API\\UMAD GUIDEE API.csproj",
+      "packagesPath": "C:\\Users\\ruin0\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ruin0\\Documents\\Universidad\\Sexto Semestre\\Desarrollo de Plataformas Móviles\\CORSE GUIDE\\UMAD GUIDEE API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Monarch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ruin0\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
