@@ -1,6 +1,0 @@
-@UMAD_GUIDE_API_HostAddress = http://localhost:5270
-
-GET {{UMAD_GUIDE_API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
