@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UMAD GUIDEE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+172eae1aa249457c5c68b4a0d3a71b29faeb8388")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2a135fdc982ce7d3a4b089b0cec45e8463c169ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("UMAD GUIDEE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UMAD GUIDEE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
