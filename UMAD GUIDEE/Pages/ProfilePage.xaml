@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UMAD_GUIDEE.Pages.ProfilePage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#6200EE" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="CornerRadius" Value="20" />
+                <Setter Property="Padding" Value="20,10" />
+                <Setter Property="Margin" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+            <!-- Imagen de perfil -->
+            <Image Source="profile.png"
+                   WidthRequest="120"
+                   HeightRequest="120"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                <Image.Clip>
+                    <EllipseGeometry Center="60,60"
+                                     RadiusX="60"
+                                     RadiusY="60" />
+                </Image.Clip>
+            </Image>
+
+            <!-- Nombre del usuario -->
+            <Label Text="Juan Pérez"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black" />
+
+            <!-- Descripción del usuario -->
+            <Label Text="Desarrollador de software apasionado por la tecnología y la innovación."
+                   FontSize="16"
+                   TextColor="#666"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   MaxLines="3"
+                   LineBreakMode="WordWrap" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

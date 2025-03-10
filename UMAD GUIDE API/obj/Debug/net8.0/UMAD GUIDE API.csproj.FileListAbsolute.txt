@@ -1,0 +1,36 @@
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\appsettings.json
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\UMAD GUIDE API.staticwebassets.endpoints.json
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\UMAD GUIDE API.exe
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\UMAD GUIDE API.deps.json
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\UMAD GUIDE API.runtimeconfig.json
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\UMAD GUIDE API.dll
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\UMAD GUIDE API.pdb
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUIDE API.csproj.AssemblyReference.cache
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUIDE API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUIDE API.AssemblyInfoInputs.cache
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUIDE API.AssemblyInfo.cs
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUIDE API.csproj.CoreCompileInputs.cache
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUIDE API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUIDE API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\scopedcss\bundle\UMAD GUIDE API.styles.css
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\staticwebassets\msbuild.UMAD GUIDE API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\staticwebassets\msbuild.UMAD GUIDE API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\staticwebassets\msbuild.build.UMAD GUIDE API.props
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.UMAD GUIDE API.props
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.UMAD GUIDE API.props
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUI.9EB2B3F2.Up2Date
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUIDE API.dll
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\refint\UMAD GUIDE API.dll
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUIDE API.pdb
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\UMAD GUIDE API.genruntimeconfig.cache
+C:\Users\Monarch\source\repos\CORSEGuide\UMAD GUIDE API\obj\Debug\net8.0\ref\UMAD GUIDE API.dll

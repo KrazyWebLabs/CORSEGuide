@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UMAD_GUIDEE.Pages.HomePage">
+    <ScrollView>
+        <StackLayout Spacing="10" Padding="10">
+            <ListView x:Name="listAnnouncement" SeparatorVisibility="None" ItemSelected="OnContactSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Padding="10">
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="boss.png" WidthRequest="40" HeightRequest="40" Aspect="AspectFill" 
+                                           VerticalOptions="Center" Margin="0,0,10,0" />
+                                    <StackLayout Orientation="Vertical">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="16" />
+                                        </StackLayout>
+                                        <Label Text="12h" FontSize="12" TextColor="Gray" />
+                                    </StackLayout>
+                                </StackLayout>
+                                <Label Text="{Binding Description}" FontSize="14" LineBreakMode="WordWrap" Margin="0,5,0,0" />
+                                <BoxView HeightRequest="1" BackgroundColor="Gray" Margin="0,10,0,0"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

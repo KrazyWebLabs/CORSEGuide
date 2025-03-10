@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UMAD GUIDE API.props" />
+</Project>
