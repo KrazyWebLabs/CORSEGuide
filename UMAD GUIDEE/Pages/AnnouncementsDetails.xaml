@@ -7,11 +7,13 @@
         <Label 
         x:Name="titleLabel"
         FontSize="24"
+            FontAttributes="Bold"
         HorizontalOptions="Center" />
 
         <Label
         x:Name ="descriptionLabel"
         FontSize="24"
-        HorizontalOptions="Center" />
+        HorizontalOptions="Center" 
+            />
     </VerticalStackLayout>
 </ContentPage>
