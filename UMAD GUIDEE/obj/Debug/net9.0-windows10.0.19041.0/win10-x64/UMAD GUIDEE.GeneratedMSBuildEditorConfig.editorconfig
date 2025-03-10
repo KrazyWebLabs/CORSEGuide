@@ -40,6 +40,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = UMAD_GUIDEE.Pages.Announce
 build_metadata.AdditionalFiles.TargetPath = Pages\AnnouncementsDetails.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\AnnouncementsDetails.xaml
 
+[C:/Users/ruin0/Documents/Universidad/Sexto Semestre/Desarrollo de Plataformas Móviles/CORSE GUIDE/UMAD GUIDEE/Pages/CreateAnnouncementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UMAD_GUIDEE.Pages.CreateAnnouncementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CreateAnnouncementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CreateAnnouncementPage.xaml
+
 [C:/Users/ruin0/Documents/Universidad/Sexto Semestre/Desarrollo de Plataformas Móviles/CORSE GUIDE/UMAD GUIDEE/Pages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UMAD_GUIDEE.Pages.HomePage.xaml
