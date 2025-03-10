@@ -11,15 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("UMAD GUIDEE")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("UMAD GUIDEE API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+03400fdfc5f9aa42edb0066114c235d5e27eea6f")]
-[assembly: System.Reflection.AssemblyProductAttribute("UMAD GUIDEE")]
-[assembly: System.Reflection.AssemblyTitleAttribute("UMAD GUIDEE")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03400fdfc5f9aa42edb0066114c235d5e27eea6f")]
+[assembly: System.Reflection.AssemblyProductAttribute("UMAD GUIDEE API")]
+[assembly: System.Reflection.AssemblyTitleAttribute("UMAD GUIDEE API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.2")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS15.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 
