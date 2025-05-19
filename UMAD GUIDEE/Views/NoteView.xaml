@@ -5,50 +5,88 @@
              xmlns:vm="clr-namespace:UMAD_GUIDEE.ViewModels"
              x:DataType="vm:NoteViewModel"
              xmlns:data="clr-namespace:ShareProject.Models;assembly=ShareProject"
-             Title="NoteView">
-    <VerticalStackLayout>
-        <Grid RowDefinitions="*,Auto"
-          ColumnDefinitions="*,*,*"
-          ColumnSpacing="5"
-          RowSpacing="5"
-          Padding="10">
+             Title=" "
+             Shell.TitleColor="Black"
+             Shell.ForegroundColor="Black"
+             Background="White"
+             Shell.BackgroundColor="White">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <!-- Header con título -->
+            <Label Text="Nueva Nota" 
+               FontSize="24"
+               FontAttributes="Bold"
+               TextColor="#333333"
+               HorizontalOptions="Center"/>
 
-            <TableView Intent="Data"
-                   Grid.Row="0"
-                   Grid.ColumnSpan="3">
-                <TableRoot>
-                    <TableSection Title="Note Info">
-                        <EntryCell Label="Title"
-                               Text="{Binding Title}" />
-                        <EntryCell Label="Description"
-                               Text="{Binding Description}" />
-                        
-                        <ViewCell>
+            <!-- Tarjeta contenedora -->
+            <Frame CornerRadius="12" 
+               Padding="15"
+               BackgroundColor="White"
+               BorderColor="#e0e0e0"
+               HasShadow="True">
+                <VerticalStackLayout Spacing="15">
+                    <!-- Campo Título -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Título" 
+                           FontAttributes="Bold"
+                           TextColor="#333333"/>
+                        <Entry Text="{Binding Title}" 
+                           Placeholder="Ingrese el título"
+                           TextColor="#333333"
+                           BackgroundColor="Transparent"
+                           ClearButtonVisibility="WhileEditing"/>
+                    </VerticalStackLayout>
 
-                            <Picker Title="Categoria"
-                                ItemsSource="{Binding Categories}"
-                                ItemDisplayBinding="{Binding Name}"
-                                SelectedItem="{Binding SelectedCategory}" />
-                        </ViewCell>
-                    </TableSection>
-                </TableRoot>
-            </TableView>
+                    <!-- Campo Descripción -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Descripción" 
+                           FontAttributes="Bold"
+                           TextColor="#333333"/>
+                        <Editor Text="{Binding Description}" 
+                            Placeholder="Ingrese la descripción"
+                            TextColor="#333333"
+                            BackgroundColor="Transparent"
+                            AutoSize="TextChanges"
+                            MinimumHeightRequest="100"/>
+                    </VerticalStackLayout>
 
-            <Button Text="Save"
-                Grid.Row="1"
-                Grid.Column="0"
-                Command="{Binding SaveDataCommand}"
-                Margin="20,0" />
-            <!--Button Text="Delete"
-                Grid.Row="1"
-                Grid.Column="1"
-                Command="{Binding DeletePartCommand}" />
-            <Button Text="Cancel"
-                Grid.Row="1"
-                Grid.Column="2"
-                Command="{Binding DoneEditingCommand}"
-                Margin="20,0" /-->
+                    <!-- Selector de Categoría -->
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Categoría" 
+                           FontAttributes="Bold"
+                           TextColor="#333333"/>
+                        <Picker Title="Seleccione una categoría"
+                            ItemsSource="{Binding Categories}"
+                            ItemDisplayBinding="{Binding Name}"
+                            SelectedItem="{Binding SelectedCategory}"
+                            TextColor="#333333"
+                            BackgroundColor="Transparent">
+                        </Picker>
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
 
-        </Grid>
-    </VerticalStackLayout>
+            <!-- Botones de acción -->
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="15">
+                <Button Text="Guardar"
+                    Command="{Binding SaveDataCommand}"
+                    BackgroundColor="#008dbf"
+                    TextColor="White"
+                    CornerRadius="8"
+                    HeightRequest="50"
+                    FontAttributes="Bold"/>
+
+                <Button Text="Cancelar"
+                    Grid.Column="1"
+                    Command="{Binding DoneEditingCommand}"
+                    BackgroundColor="Transparent"
+                    TextColor="#008dbf"
+                    BorderColor="#008dbf"
+                    BorderWidth="1"
+                    CornerRadius="8"
+                    HeightRequest="50"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

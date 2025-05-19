@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\Mobile\\CORCEGuide\\UMAD GUIDEE\\UMAD GUIDEE.csproj": {}
+    "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\UMAD GUIDEE\\UMAD GUIDEE.csproj": {}
   },
   "projects": {
-    "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj": {
+    "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj",
+        "projectUniqueName": "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj",
         "projectName": "ShareProject",
-        "projectPath": "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj",
-        "packagesPath": "C:\\Users\\Arturo Barraza\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\obj\\",
+        "projectPath": "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj",
+        "packagesPath": "C:\\Users\\ruin0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Arturo Barraza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ruin0\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,25 +72,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\University\\Mobile\\CORCEGuide\\UMAD GUIDEE\\UMAD GUIDEE.csproj": {
+    "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\UMAD GUIDEE\\UMAD GUIDEE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\Mobile\\CORCEGuide\\UMAD GUIDEE\\UMAD GUIDEE.csproj",
+        "projectUniqueName": "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\UMAD GUIDEE\\UMAD GUIDEE.csproj",
         "projectName": "UMAD GUIDEE",
-        "projectPath": "D:\\University\\Mobile\\CORCEGuide\\UMAD GUIDEE\\UMAD GUIDEE.csproj",
-        "packagesPath": "C:\\Users\\Arturo Barraza\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\Mobile\\CORCEGuide\\UMAD GUIDEE\\obj\\",
+        "projectPath": "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\UMAD GUIDEE\\UMAD GUIDEE.csproj",
+        "packagesPath": "C:\\Users\\ruin0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\UMAD GUIDEE\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Arturo Barraza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ruin0\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,32 +109,32 @@
           "net9.0-android35.0": {
             "targetAlias": "net9.0-android",
             "projectReferences": {
-              "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj": {
-                "projectPath": "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj"
+              "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj": {
+                "projectPath": "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj"
               }
             }
           },
           "net9.0-ios18.2": {
             "targetAlias": "net9.0-ios",
             "projectReferences": {
-              "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj": {
-                "projectPath": "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj"
+              "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj": {
+                "projectPath": "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj"
               }
             }
           },
           "net9.0-maccatalyst18.2": {
             "targetAlias": "net9.0-maccatalyst",
             "projectReferences": {
-              "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj": {
-                "projectPath": "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj"
+              "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj": {
+                "projectPath": "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj"
               }
             }
           },
           "net9.0-windows10.0.19041": {
             "targetAlias": "net9.0-windows10.0.19041.0",
             "projectReferences": {
-              "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj": {
-                "projectPath": "D:\\University\\Mobile\\CORCEGuide\\ShareProject\\ShareProject.csproj"
+              "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj": {
+                "projectPath": "C:\\Users\\ruin0\\Source\\Repos\\CORSEGuidee\\ShareProject\\ShareProject.csproj"
               }
             }
           }
@@ -188,7 +188,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )",
+              "version": "[9.0.4, )",
               "autoReferenced": true
             }
           },
@@ -211,7 +211,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-ios18.2": {
           "targetAlias": "net9.0-ios",
@@ -249,7 +249,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )",
+              "version": "[9.0.4, )",
               "autoReferenced": true
             }
           },
@@ -272,7 +272,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-maccatalyst18.2": {
           "targetAlias": "net9.0-maccatalyst",
@@ -310,7 +310,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )",
+              "version": "[9.0.4, )",
               "autoReferenced": true
             }
           },
@@ -334,7 +334,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
@@ -395,7 +395,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

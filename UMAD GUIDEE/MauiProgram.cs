@@ -19,7 +19,7 @@ public static class MauiProgram
 			}).Services.AddSingleton<HttpClient>(client =>
 			{
 				// Cambiar la IP - ipconfig
-				return new HttpClient { BaseAddress = new Uri("http://192.168.68.62:7184/api/") };
+				return new HttpClient { BaseAddress = new Uri("http://172.16.4.157:7184/api/") };
 			});
 
             builder.Services.AddSingleton<HttpService>()

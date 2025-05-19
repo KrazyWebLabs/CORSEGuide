@@ -4,9 +4,80 @@
         <name>UMAD GUIDEE</name>
     </assembly>
     <members>
+        <member name="M:UMAD_GUIDEE.App.#ctor(System.IServiceProvider)">
+            <summary>
+            Constructor de la Applicacion recibiento el servicio de inyeccion de dependencias.
+            </summary>
+            <param name="serviceProvider"></param>
+        </member>
+        <member name="M:UMAD_GUIDEE.App.CreateWindow(Microsoft.Maui.IActivationState)">
+            <summary>
+            Metodo que se encarga de redirigir a la vista de inicio de sesion.
+            </summary>
+            <param name="activationState"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.AppShell.#ctor">
+            <summary>
+            Constructor del AppShell encargado de recoger las rutas de las vistas y de inicializar el menu
+            </summary>
+        </member>
+        <member name="M:UMAD_GUIDEE.AppShell.LogOut(System.Object,System.EventArgs)">
+            <summary>
+            Metodo en donde se libera el SecureStorage y se redirige a la vista de login
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UMAD_GUIDEE.Services.HttpService.InitializeClient(System.String,System.String)">
+            <summary>
+            Initializes the HttpClient with the provided email and password.
+            </summary>
+            <param name="email"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.Services.HttpService.Login(System.String,System.String)">
+            <summary>
+            Logs in the user with the provided username and password.
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.Services.HttpService.GetCurrentUser">
+            <summary>
+            Get the current user.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.Services.HttpService.GetNotes">
+            <summary>
+            Get all notes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.Services.HttpService.GetAllWorkers">
+            <summary>
+            Get all workers.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.Services.HttpService.GetAllCategories">
+            <summary>
+            Get all categories.
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:UMAD_GUIDEE.ViewModels.LogInViewModel">
             <inheritdoc/>
             <inheritdoc/>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.LogInViewModel.Login">
+            <summary>
+            Command to log in the user
+            </summary>
+            <returns></returns>
         </member>
         <member name="P:UMAD_GUIDEE.ViewModels.LogInViewModel.Email">
             <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.LogInViewModel._email"/>
@@ -28,6 +99,24 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.NotesViewModel.NoteSelected">
+            <summary>
+            Método que se ejecuta cuando se selecciona una nota
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.NotesViewModel.LoadData">
+            <summary>
+            Método que carga los datos de las notas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.NotesViewModel.AddNewNote">
+            <summary>
+            Método que se ejecuta cuando se selecciona el botón de añadir nueva nota
+            </summary>
+            <returns></returns>
         </member>
         <member name="P:UMAD_GUIDEE.ViewModels.NotesViewModel.Notes">
             <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NotesViewModel._notes"/>
@@ -69,6 +158,49 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.NoteViewModel.LoadNoteAsync(ShareProject.Models.DTOs.OutputDTO.NoteOutputDTO)">
+            <summary>
+            LoadNoteAsync method is used to load the note data into the view model.
+            </summary>
+            <param name="noteDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.NoteViewModel.LoadDropdownData">
+            <summary>
+            LoadDropdownData method is used to load the dropdown data into the view model.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.NoteViewModel.SaveData">
+            <summary>
+            SaveData method is used to save the note data into the database.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.NoteViewModel.InsertNote">
+            <summary>
+            InsertNote method is used to insert a new note into the database.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.NoteViewModel.UpdateNote">
+            <summary>
+            UpdateNote method is used to update an existing note in the database.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.NoteViewModel.DeletePart">
+            <summary>
+            DeletePart method is used to delete a note from the database.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UMAD_GUIDEE.ViewModels.NoteViewModel.DoneEditing">
+            <summary>
+            DoneEditing method is used to navigate back to the previous page.
+            </summary>
+            <returns></returns>
         </member>
         <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.Id">
             <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NoteViewModel._id"/>
@@ -114,6 +246,24 @@
         </member>
         <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.DoneEditingCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:UMAD_GUIDEE.ViewModels.NoteViewModel.DoneEditing"/>.</summary>
+        </member>
+        <member name="M:UMAD_GUIDEE.Views.NotesView.#ctor(UMAD_GUIDEE.ViewModels.NotesViewModel)">
+            <summary>
+            Constructor for the NotesView.
+            </summary>
+            <param name="notesViewModel"></param>
+        </member>
+        <member name="M:UMAD_GUIDEE.Views.NotesView.BttSecure(UMAD_GUIDEE.ViewModels.NotesViewModel)">
+            <summary>
+            Sets the visibility of the button based on the user's role in this case Teacher.
+            </summary>
+            <param name="notesViewModel"></param>
+        </member>
+        <member name="M:UMAD_GUIDEE.Views.NoteView.#ctor(UMAD_GUIDEE.ViewModels.NoteViewModel)">
+            <summary>
+            Constructor que inicializa la clase NoteView
+            </summary>
+            <param name="viewModel"></param>
         </member>
         <member name="T:UMAD_GUIDEE.Resource">
             <summary>

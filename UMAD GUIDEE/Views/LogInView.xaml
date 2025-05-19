@@ -5,18 +5,55 @@
              x:Class="UMAD_GUIDEE.Views.LogInView"
              xmlns:vm="clr-namespace:UMAD_GUIDEE.ViewModels"
              x:DataType="vm:LogInViewModel"
-             Title="LogInView">
-    <VerticalStackLayout>
-        <Entry Placeholder="Email"
-               Keyboard="Email"
-               Text="{Binding Email}"/>
+             Title=" "
+             BackgroundColor="White">
 
+    <VerticalStackLayout 
+        Spacing="20"
+        Padding="40"
+        VerticalOptions="Center">
+        <Image Source="logo.png"/>
+
+        <!-- Email Entry -->
+        <Entry Placeholder="Email"
+               PlaceholderColor="#999999"
+               TextColor="Black"
+               Keyboard="Email"
+               BackgroundColor="#F5F5F5"
+               HeightRequest="50"
+               Text="{Binding Email}">
+            <Entry.FontAttributes>
+                <OnPlatform x:TypeArguments="FontAttributes">
+                    <On Platform="iOS" Value="None"/>
+                    <On Platform="Android" Value="None"/>
+                </OnPlatform>
+            </Entry.FontAttributes>
+        </Entry>
+
+        <!-- Password Entry -->
         <Entry Placeholder="Password"
+               PlaceholderColor="#999999"
+               TextColor="Black"
                IsPassword="True"
-               Text="{Binding Password}"/>
+               BackgroundColor="#F5F5F5"
+               HeightRequest="50"
+               Text="{Binding Password}">
+        </Entry>
+
+        <!-- Login Button -->
         <Button Command="{Binding LoginCommand}"
                 Text="Login"
-                x:Name="DetailButton"></Button>
-        <ActivityIndicator IsRunning="{Binding IsRunning}"></ActivityIndicator>
+                TextColor="White"
+                BackgroundColor="#008dbf"
+                CornerRadius="25"
+                HeightRequest="50"
+                FontSize="16"
+                FontAttributes="Bold"
+                Margin="0,10,0,0"/>
+
+        <!-- Activity Indicator -->
+        <ActivityIndicator IsRunning="{Binding IsRunning}"
+                           Color="#008dbf"
+                           HorizontalOptions="Center"/>
     </VerticalStackLayout>
 </ContentPage>

@@ -11,8 +11,8 @@ using UMAD_GUIDEE_API.Data;
 namespace UMAD_GUIDEE_API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250515211626_Final")]
-    partial class Final
+    [Migration("20250519061110_Saraaaa")]
+    partial class Saraaaa
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

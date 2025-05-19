@@ -5,47 +5,94 @@
              xmlns:vm="clr-namespace:UMAD_GUIDEE.ViewModels"
              x:DataType="vm:NotesViewModel"
              xmlns:data="clr-namespace:ShareProject.Models.DTOs.OutputDTO;assembly=ShareProject"
-             Title="NotesView"
-             Shell.FlyoutBehavior="Flyout">
-    <!--VerticalStackLayout-->
-        <!-- Contenido principal -->
-        <Grid RowDefinitions="Auto,*"
+             Title=" "
+             Shell.FlyoutBehavior="Flyout"
+             Shell.BackgroundColor="White"
+             Shell.ForegroundColor="Black"
+             Background="White">
+    <!-- Contenido principal -->
+    <Grid RowDefinitions="*"
           ColumnDefinitions="*">
-            <Button Grid.Row="0"
-                Grid.Column="0"
-                Text="Add New Part"
-                Margin="20, 10, 20, 10"
-                Command="{Binding AddNewNoteCommand}"
-                    IsVisible="{Binding IsVisible}"/>
 
-            <RefreshView Grid.Row="1"
+        <RefreshView Grid.Row="0"
                      Grid.Column="0"
                      IsRefreshing="{Binding IsRefreshing}"
                      Command="{Binding LoadDataCommand}">
-                <CollectionView ItemsSource="{Binding Notes}"
+            <CollectionView ItemsSource="{Binding Notes}"
                             SelectedItem="{Binding SelectedNote, Mode=TwoWay}"
                             SelectionChangedCommand="{Binding NoteSelectedCommand}"
                             SelectionMode="Single"
                             Margin="30,20,30,30">
-                    <CollectionView.ItemsLayout>
-                        <LinearItemsLayout Orientation="Vertical"
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical"
                                        ItemSpacing="20" />
-                    </CollectionView.ItemsLayout>
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate x:DataType="data:NoteOutputDTO">
-                            <VerticalStackLayout Padding="15,10"
-                                             Margin="10,5,10,5">
-                                <Label Text="{Binding Title, StringFormat='Note: {0}'}"
-                                   TextColor="White" />
-                                <Label Text="{Binding Description, StringFormat='Description: {0}'}" />
-                                <Label Text="{Binding WorkerFullName, StringFormat='Worker: {0}'}" />
-                                <Label Text="{Binding CategoryName, StringFormat='Category: {0}'}" />
-                            </VerticalStackLayout>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>   
-            </RefreshView>
-        </Grid>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="data:NoteOutputDTO">
+                        <!-- Tu DataTemplate actual -->
+                        <Grid Padding="5">
+                            <!-- Usamos un efecto visual para mostrar la selección -->
+                            <Frame BorderColor="#DDDDDD"
+                                   BackgroundColor="White"
+                                   CornerRadius="10"
+                                   Padding="0"
+                                   HasShadow="True"
+                                   InputTransparent="True">
+                                <VerticalStackLayout Padding="15,15,15,15"
+                                                     Spacing="8"
+                                                     InputTransparent="True">
+                                    <Label Text="{Binding WorkerFullName, StringFormat='{0}'}" 
+                                           HorizontalOptions="Start"
+                                           TextColor="Black"
+                                           FontSize="Subtitle"
+                                           FontAttributes="Bold"
+                                           InputTransparent="True"/>
+                                    <Label Text="{Binding Title, StringFormat='{0}:'}"
+                                           TextColor="Black"
+                                           FontAttributes="Bold"
+                                           InputTransparent="True"/>
 
-    <!--/VerticalStackLayout-->
+                                    <Label Text="{Binding Description, StringFormat='{0}'}" 
+                                           FontSize="Caption"
+                                           TextColor="Black"
+                                           LineBreakMode="WordWrap"
+                                           MaxLines="10"
+                                           HorizontalOptions="FillAndExpand"
+                                           InputTransparent="True"/>
+
+                                    <Label Text="{Binding CategoryName, StringFormat='{0}'}" 
+                                           TextColor="Black"    
+                                           FontSize="Caption"
+                                           InputTransparent="True"/>
+                                </VerticalStackLayout>
+                            </Frame>
+
+                            <!-- Capa transparente para capturar la interacción -->
+                            <Rectangle Fill="Transparent" 
+                                       InputTransparent="False"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+
+        <Button
+                Grid.Row="0"
+                IsVisible="{Binding IsVisible}"
+                Grid.Column="0"
+                Text=""
+                ImageSource="pencil.png"
+                FontSize="24"
+                FontAttributes="Bold"
+                Margin="0,0,25,25"
+                BackgroundColor="#008dbf"
+                TextColor="White"
+                Command="{Binding AddNewNoteCommand}"
+                WidthRequest="56"
+                HeightRequest="56"
+                CornerRadius="28"
+                HorizontalOptions="End"
+                VerticalOptions="End"
+                ZIndex="1"/>
+    </Grid>
 </ContentPage>
