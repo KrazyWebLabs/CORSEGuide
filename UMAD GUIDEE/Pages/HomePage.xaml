@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UMAD_GUIDEE.Pages.HomePage">
+             x:Class="UMAD_GUIDEE.Pages.HomePage"
+             Shell.FlyoutItemIsVisible="True"
+             Shell.FlyoutBehavior="Flyout">
     <AbsoluteLayout>
         <!-- Contenido principal -->
         <ScrollView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0, 0, 1, 1">
             <StackLayout Spacing="10" Padding="10">
-                <ListView x:Name="listAnnouncement" SeparatorVisibility="None" ItemSelected="OnContactSelected">
+                <ListView x:Name="listAnnouncement" SeparatorVisibility="None" ItemSelected="OnContactSelected" RowHeight="110">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>

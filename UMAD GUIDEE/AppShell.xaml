@@ -3,47 +3,44 @@
     x:Class="UMAD_GUIDEE.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:UMAD_GUIDEE.Pages"
+    xmlns:local="clr-namespace:UMAD_GUIDEE"
+    xmlns:views="clr-namespace:UMAD_GUIDEE.Views"
     xmlns:pages="clr-namespace:UMAD_GUIDEE.Pages"
-    Shell.FlyoutBehavior="Flyout"
-    Shell.TabBarIsVisible="True"
-    Title="UMAD_GUIDEE"
-    TabBarBackgroundColor="White"
-    TabBarTitleColor="#0CB7EB"
-    TabBarForegroundColor="#0CB7EB">
+    Shell.FlyoutBehavior="Disabled"
+    Title="App">
 
-    
 
-    <TabBar>
-        <Tab Icon="home.png">
-            <ShellContent ContentTemplate="{DataTemplate pages:HomePage}" />
-        </Tab>
-        <Tab Icon="search.png">
-            <ShellContent ContentTemplate="{DataTemplate pages:SearchPage}" />
-        </Tab>
-    </TabBar>
+    <!--FlyoutItem
+     Title="Home">
 
-    <FlyoutItem
-             Title="Home"
-        Icon="home.svg">
-        <Tab>
-            <ShellContent
-         Route="HomePage"
-         ContentTemplate="{DataTemplate pages:HomePage}">
+        <ShellContent
+            Title="Home" 
+             Route="HomePage"
+             ContentTemplate="{DataTemplate pages:HomePage}"
+        >
 
-            </ShellContent>
-        </Tab>
-    </FlyoutItem>
+        </ShellContent>
+
+    </FlyoutItem-->
 
     <FlyoutItem
-         Title="Profile"
-         Icon="profile.png">
-        <Tab>
+         Title="Notes">
+        
             <ShellContent
-                 Route="HomePage"
-                 ContentTemplate="{DataTemplate pages:ProfilePage}">
+                Title="Notes" 
+                 Route="NotesView"
+                 ContentTemplate="{DataTemplate views:NotesView}"
+                x:Name="NoteOption"
+                IsVisible="True">
 
             </ShellContent>
-        </Tab>
+        
     </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <Button
+        Text="Output"
+        Clicked="LogOut"
+        x:Name="OutputButton"></Button>
+    </Shell.FlyoutFooter>
 </Shell>

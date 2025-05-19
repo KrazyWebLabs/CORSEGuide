@@ -4,11 +4,212 @@
         <name>UMAD GUIDEE</name>
     </assembly>
     <members>
+        <member name="T:UMAD_GUIDEE.ViewModels.LogInViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.LogInViewModel.Email">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.LogInViewModel._email"/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.LogInViewModel.Password">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.LogInViewModel._password"/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.LogInViewModel.IsRunning">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.LogInViewModel._isRunning"/>
+        </member>
+        <member name="F:UMAD_GUIDEE.ViewModels.LogInViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:UMAD_GUIDEE.ViewModels.LogInViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.LogInViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:UMAD_GUIDEE.ViewModels.LogInViewModel.Login"/>.</summary>
+        </member>
+        <member name="T:UMAD_GUIDEE.ViewModels.NotesViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NotesViewModel.Notes">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NotesViewModel._notes"/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NotesViewModel.IsRefreshing">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NotesViewModel._isRefreshing"/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NotesViewModel.IsBusy">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NotesViewModel._isBusy"/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NotesViewModel.IsVisible">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NotesViewModel._isVisible"/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NotesViewModel.SelectedNote">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NotesViewModel._selectedNote"/>
+        </member>
+        <member name="F:UMAD_GUIDEE.ViewModels.NotesViewModel.noteSelectedCommand">
+            <summary>The backing field for <see cref="P:UMAD_GUIDEE.ViewModels.NotesViewModel.NoteSelectedCommand"/>.</summary>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NotesViewModel.NoteSelectedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:UMAD_GUIDEE.ViewModels.NotesViewModel.NoteSelected"/>.</summary>
+        </member>
+        <member name="F:UMAD_GUIDEE.ViewModels.NotesViewModel.loadDataCommand">
+            <summary>The backing field for <see cref="P:UMAD_GUIDEE.ViewModels.NotesViewModel.LoadDataCommand"/>.</summary>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NotesViewModel.LoadDataCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:UMAD_GUIDEE.ViewModels.NotesViewModel.LoadData"/>.</summary>
+        </member>
+        <member name="F:UMAD_GUIDEE.ViewModels.NotesViewModel.addNewNoteCommand">
+            <summary>The backing field for <see cref="P:UMAD_GUIDEE.ViewModels.NotesViewModel.AddNewNoteCommand"/>.</summary>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NotesViewModel.AddNewNoteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:UMAD_GUIDEE.ViewModels.NotesViewModel.AddNewNote"/>.</summary>
+        </member>
+        <member name="T:UMAD_GUIDEE.ViewModels.NoteViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.Id">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NoteViewModel._id"/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.Title">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NoteViewModel._title"/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.Description">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NoteViewModel._description"/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.Categories">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NoteViewModel._categories"/>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.SelectedCategory">
+            <inheritdoc cref="F:UMAD_GUIDEE.ViewModels.NoteViewModel._selectedCategory"/>
+        </member>
+        <member name="F:UMAD_GUIDEE.ViewModels.NoteViewModel.saveDataCommand">
+            <summary>The backing field for <see cref="P:UMAD_GUIDEE.ViewModels.NoteViewModel.SaveDataCommand"/>.</summary>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.SaveDataCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:UMAD_GUIDEE.ViewModels.NoteViewModel.SaveData"/>.</summary>
+        </member>
+        <member name="F:UMAD_GUIDEE.ViewModels.NoteViewModel.insertNoteCommand">
+            <summary>The backing field for <see cref="P:UMAD_GUIDEE.ViewModels.NoteViewModel.InsertNoteCommand"/>.</summary>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.InsertNoteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:UMAD_GUIDEE.ViewModels.NoteViewModel.InsertNote"/>.</summary>
+        </member>
+        <member name="F:UMAD_GUIDEE.ViewModels.NoteViewModel.updateNoteCommand">
+            <summary>The backing field for <see cref="P:UMAD_GUIDEE.ViewModels.NoteViewModel.UpdateNoteCommand"/>.</summary>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.UpdateNoteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:UMAD_GUIDEE.ViewModels.NoteViewModel.UpdateNote"/>.</summary>
+        </member>
+        <member name="F:UMAD_GUIDEE.ViewModels.NoteViewModel.deletePartCommand">
+            <summary>The backing field for <see cref="P:UMAD_GUIDEE.ViewModels.NoteViewModel.DeletePartCommand"/>.</summary>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.DeletePartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:UMAD_GUIDEE.ViewModels.NoteViewModel.DeletePart"/>.</summary>
+        </member>
+        <member name="F:UMAD_GUIDEE.ViewModels.NoteViewModel.doneEditingCommand">
+            <summary>The backing field for <see cref="P:UMAD_GUIDEE.ViewModels.NoteViewModel.DoneEditingCommand"/>.</summary>
+        </member>
+        <member name="P:UMAD_GUIDEE.ViewModels.NoteViewModel.DoneEditingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:UMAD_GUIDEE.ViewModels.NoteViewModel.DoneEditing"/>.</summary>
+        </member>
         <member name="T:UMAD_GUIDEE.Resource">
             <summary>
             Android Resource Designer class.
             Exposes the Android Resource designer assembly into the project Namespace.
             </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRunning">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRunning" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Notes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Notes" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsVisible" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedNote">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedNote" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Categories">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Categories" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCategory" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRunning">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRunning" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Notes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Notes" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsVisible" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedNote">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedNote" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Categories">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Categories" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCategory" generated properties.</summary>
         </member>
     </members>
 </doc>

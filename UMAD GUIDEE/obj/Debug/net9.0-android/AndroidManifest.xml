@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Una herramienta generó este código.
-    Se generó desde C:\Users\ruin0\Documents\Universidad\Sexto Semestre\Desarrollo de Plataformas Móviles\CORSE GUIDE\UMAD GUIDEE\Platforms\Android\AndroidManifest.xml
+    Se generó desde D:\University\Mobile\CORCEGuide\UMAD GUIDEE\Platforms\Android\AndroidManifest.xml
     Los cambios realizados en este archivo pueden generar un comportamiento incorrecto y se perderán si
     se regenera el contenido.
     -->
@@ -9,7 +9,7 @@
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="35" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:allowBackup="true" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true" android:name="crc64bff170a3ad47a3b5.MainApplication" android:label="UMAD GUIDEE" android:debuggable="true" android:extractNativeLibs="true">
+  <application android:allowBackup="true" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true" android:usesCleartextTraffic="true" android:name="crc64bff170a3ad47a3b5.MainApplication" android:label="UMAD GUIDEE" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:launchMode="singleTop" android:theme="@style/Maui.SplashTheme" android:name="crc64bff170a3ad47a3b5.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
